@@ -4,5 +4,7 @@ if b-45 < 0:
     b = b + 60 - 45
     if a == -1:
         a = 23
-
+else:
+    b = b-45
+    
 print(a, b)
