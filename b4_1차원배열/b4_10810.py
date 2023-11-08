@@ -9,4 +9,4 @@ for _ in range(b):
         arr[index]=k
 
 # print(arr) => [1, 2, 1, 1, 0]
-print(" ".join(map(str, arr)))
+print(" ".join(map(str, arr)))  # 1 2 1 1 0
