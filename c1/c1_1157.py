@@ -28,7 +28,7 @@ new_word = list(set(word)) #중복 제거
 arr = []
 for s in new_word:
     # 원래 문자열 중 중복없는 문자열로 찾기
-    temp = word().count(s)
+    temp = word.count(s)
     arr.append(temp) # 찾아서 몇 개
     # arr 배열에 중복제서 문자열의 길이만큼 숫자 들어감
 
